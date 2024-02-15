@@ -1,0 +1,1089 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(188, 227, 242);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    border-bottom: 2px solid yellow;
+}
+.Navbar{
+    height: 9vh;
+    width: 20.5vw;
+    position: absolute;
+    left: 6vw;
+}
+.Navbar > img{
+    height: 9vh;
+    width: 7vw;
+    border-radius: 20vmin;
+    z-index: -1;
+    cursor: pointer;
+}
+.Navbar > p{
+    display: inline;
+    color: green;
+    position: absolute;
+    top: 2.5vh;
+    font-size:4vh;
+    font-weight: bolder;
+    font-family: math;
+    cursor: pointer;
+}
+small{
+    font-size: 7vh;
+    position: relative;
+    left:0.2vw;
+}
+.Menu{
+    height: 9vh;
+    width: 5vw;
+    display: grid;
+    place-items: center;
+    position: relative;
+    left: 43vw;
+    cursor: pointer;
+}
+.Menu > i{
+    font-size: 6vh;
+    
+}
+
+
+
+/*   section 1   div 1   */
+
+.Centercontent{
+    height: 60vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Homelogo{
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(205, 194, 194);
+    border-radius: 50%;
+    z-index: 0;
+}
+.Homelogo > .Innerlogo{
+    height: 30vh;
+    width: 80%;
+    border-radius: 50%;
+    z-index: 1px;
+    position: relative;
+    top: 4.5vh;
+    left: 2vw;
+}
+
+
+
+/* section 1  div2  */
+
+.textcontent{
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    /* border:  2px solid green; */
+}
+ .textcontent > mark{
+    background-color: rgb(56, 186, 56);
+    color: white;
+    font-family: sans-serif;
+}
+.textcontent > h1{
+    font-size: 7.7vmin;
+    font-family: sans-serif;
+    margin-top: 3vh;
+}
+.textcontent > p{
+    margin-top: 1.5vmin;
+}
+.textcontent > button{
+    height: 4.5vh;
+    width: 8vw;
+    color: black;
+    font-family: sans-serif;
+    background-color: rgb(211, 179, 82);
+    font-weight:600;
+    font-size: 2vmin;
+    border: none;
+    outline: 0;
+    margin-top: 1vmin;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+
+/*    section  div 3   */
+
+/*  Dscount  */
+
+
+
+
+.Discount{
+    height: 10vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Lorem{
+    height: 8.5vh;
+    width: 20vw;
+    background-color: rgb(230, 212, 212);
+    border-radius: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.voucher{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 3vmin;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 1vh;
+}
+.firstlogo{
+   height: 100%;
+   width: 100%;
+   border-radius: 3vmin;
+   
+}
+
+.Loremone{
+    height: 5vh;
+    width: 14vw;
+}
+
+
+
+/*    Fresh   */
+
+
+.Grocery{
+    height: 8.5vh;
+    width: 20vw;
+    background-color: rgb(230, 212, 212);
+    border-radius: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.Groceryone{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 3vmin;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 1vh;
+}
+
+
+
+/*  delivery   */
+
+
+.Fastdelivery{
+ 
+    height: 8.5vh;
+    width: 20vw;
+    background-color: rgb(230, 212, 212);
+    border-radius: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.Fastdeliveryone{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 3vmin;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 1vh; 
+}
+
+
+
+
+
+/*    section one   */
+
+
+.Centercontentone{
+    height: 42em;
+    border-top: 5px solid rgb(39, 199, 205);
+    background-color: rgb(203, 224, 232);
+    border-bottom: 2px solid brown;
+}
+.Centercontentone > mark {
+    position: relative;
+    left: 45vw;
+    top: 2vh;
+    font-size: 3.5vmin;
+    color: white;
+    background-color: rgb(56, 186, 56);
+}
+.Centercontentone > h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5vmin;
+}
+.Images{
+    height: 35em;
+    width: 74vw;
+    position: relative;
+    left: 12vw;
+    top: 1vh;
+    object-fit: cover;
+    
+}
+#imgsize{
+    height: 25vh;
+    width: 23vw;
+    background-size: cover;
+    object-fit: cover;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    border: 2px solid transparent;
+    
+}
+#imgsize:hover{
+    opacity: 0.9;
+    transition: all 0.1s ease-out 0s;
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+
+
+
+
+/*   responsive    */
+
+
+/*   For Mobile    */    
+
+
+@media (min-width:300px) and (max-width:600px) {
+    .Navbar{
+        height: 9vh;
+        width: 55vw;
+        position: absolute;
+        left: 2vw;
+    }
+    .Navbar > img{
+        height: 9vh;
+        width: 20vw;
+        border-radius: 20vmin;
+        z-index: -1;
+    }
+
+
+    .Navbar > p{
+        display: inline;
+        color: #008000;
+        position: absolute;
+        top: 4.5vh;
+        font-size:2.5vh;
+        font-weight: bolder;
+        font-family: math;
+        cursor: pointer;
+    }
+
+
+    small{
+        font-size: 5vh;
+        position: relative;
+        left:0.4vw;
+    }
+    .Menu > i{
+        font-size: 4vh;
+        
+    }
+
+
+
+
+    /*    2nd part    */
+
+
+    
+    .Centercontent{
+        height: 38vh;
+        background-color: skyblue;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .Homelogo{
+        height: 25vh;
+        width: 32vw;
+        background-color: rgb(205, 194, 194);
+        border-radius: 50%;
+        z-index: 0;
+        position: relative;
+    }
+
+    .Homelogo > .Innerlogo{
+        height: 20vh;
+        width: 25vw;
+        border-radius: 50%;
+        z-index: 1px;
+        position: relative;
+        top: 2vh;
+        left: 3vw;
+    }
+
+
+
+    /*     3rd part   */
+
+
+    .textcontent{
+        height: 26vh;
+        width: 55vw;
+        position: relative;
+        top: 1vh;
+    }
+
+    .textcontent > mark{
+        background-color: rgb(56, 186, 56);
+        color: white;
+        font-family: sans-serif;
+        font-size: 2.2vh;
+    }
+    .textcontent > h1{
+        font-size: 5vmin;
+        font-family: sans-serif;
+        margin-top: 2vh;
+    }
+    .textcontent > p{
+        margin-top: 1.5vmin;
+        font-size: 2.4vw;
+    }
+    .textcontent > button{
+        height: 3.5vh;
+        width: 18vw;
+        color: black;
+        font-family: sans-serif;
+        background-color: rgb(211, 179, 82);
+        font-weight:600;
+        font-size: 2.5vmin;
+        border: none;
+        outline: 0;
+        margin-top: 1vmin;
+        cursor: pointer;
+    }
+
+
+    /* 4th part   */
+
+
+
+
+    .Discount{
+        height: 10vh;
+        width: 95vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: 1vh;
+    }
+    
+    .Lorem{
+        height: 5vh;
+        width: 30vw;
+        background-color: rgb(230, 212, 212);
+        border-radius: 1vmin;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    .voucher{
+        height: 3vh;
+        width: 6vw;
+        border-radius: 3vmin;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 1vh;
+    }
+    .firstlogo{
+       height: 100%;
+       width: 100%;
+       border-radius: 3vmin;
+       
+    }
+    
+    .Loremone{
+        height: 5vh;
+        width: 24vw;
+        font-size: 1.1vh;
+        position: relative;
+        top: 0.5vh;
+    }
+    .Loremone b{
+        font-size: 1.5vh;
+    }
+    
+    
+    
+    /*    Fresh   */
+    
+    
+    .Grocery{
+        height: 5vh;
+        width: 30vw;
+        background-color: rgb(230, 212, 212);
+        border-radius: 1vmin;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    .Groceryone{
+        height: 3vh;
+        width: 6vw;
+        border-radius: 3vmin;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 1vh;
+    }
+    
+    
+    
+    /*  delivery   */
+    
+    
+    .Fastdelivery{
+        height: 5vh;
+        width: 30vw;
+        background-color: rgb(230, 212, 212);
+        border-radius: 1vmin;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    .Fastdeliveryone{
+        height: 3vh;
+        width: 6vw;
+        border-radius: 3vmin;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 1vh;
+    }
+
+
+
+
+    /* footer parts   */
+
+
+
+
+
+    
+.Centercontentone{
+    height: 23em;
+    border-top: 5x solid rgb(39, 199, 205);
+    background-color: rgb(203, 224, 232);
+    border-bottom: 2px solid brown;
+}
+.Centercontentone > mark {
+    position: relative;
+    left: 45vw;
+    bottom: 10vh;
+    font-size: 3vmin;
+    color: white;
+    background-color: rgb(56, 186, 56);
+}
+.Centercontentone > h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 4vmin;
+    font-size: 2.5vh;
+}
+.Images{
+    height: 17.7em;
+    width: 75vw;
+    position: relative;
+    left: 12vw;
+    top: 1vh;
+    object-fit: cover;
+    
+}
+#imgsize{
+    height: 15vh;
+    width: 21.8vw;
+    background-size: cover;
+    object-fit: cover;
+    padding: 0.5vw;
+    border-radius: 1.8vw;
+    cursor: pointer;
+    border: 2px solid transparent;
+    
+}
+
+}
+
+
+
+/*  @ Media Query   */
+
+
+@media (min-width:601px) and (max-width:900px){
+
+/*   1st Part   */
+
+
+
+.Navbar{
+    height: 9vh;
+    width: 45vw;
+    position: absolute;
+    left: 2vw;
+}
+.Navbar > img{
+    height: 9vh;
+    width: 18vw;
+    border-radius: 20vmin;
+    z-index: -1;
+}
+
+
+.Navbar > p{
+    display: inline;
+    color: green;
+    position: absolute;
+    top: 3.7vh;
+    font-size: 4vh;
+    font-weight: bolder;
+    font-family: math;
+    cursor: pointer;
+}
+
+
+small{
+    font-size: 6vh;
+    position: relative;
+    left:0.4vw;
+}
+.Menu > i{
+    font-size: 5vh;
+    
+}
+
+
+/*  2nd part  */
+
+
+.Centercontent{
+    height: 43vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Homelogo{
+    height: 28vh;
+    width: 32vw;
+    background-color: rgb(205, 194, 194);
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    bottom: 0.6vh;
+}
+
+.Homelogo > .Innerlogo{
+    height: 23vh;
+    width: 25vw;
+    border-radius: 50%;
+    z-index: 1px;
+    position: relative;
+    top: 2.5vh;
+    left: 3vw;
+}
+
+
+/*  3rd part    */
+
+
+
+
+.textcontent{
+    height: 26vh;
+    width: 55vw;
+    position: relative;
+    bottom: 1.5vh;
+}
+
+.textcontent > mark{
+    background-color: rgb(56, 186, 56);
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.2vh;
+}
+.textcontent > h1{
+    font-size: 5vmin;
+    font-family: sans-serif;
+    margin-top: 2vh;
+}
+.textcontent > p{
+    margin-top: 1.5vmin;
+    font-size: 2.4vw;
+}
+.textcontent > button{
+    height: 3.5vh;
+    width: 18vw;
+    color: black;
+    font-family: sans-serif;
+    background-color: rgb(211, 179, 82);
+    font-weight:600;
+    font-size: 2.5vmin;
+    border: none;
+    outline: 0;
+    margin-top: 1vmin;
+    cursor: pointer;
+}
+
+
+
+/*    4th part   */
+
+
+
+.Discount{
+    height: 9vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 2vh;
+}
+
+.Lorem{
+    height: 7.5vh;
+    width: 28vw;
+    background-color: rgb(230, 212, 212);
+    border-radius: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.voucher{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 3vmin;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 1vh;
+}
+.firstlogo{
+   height: 100%;
+   width: 100%;
+   border-radius: 3vmin;
+   
+}
+
+.Loremone{
+    height: 7vh;
+    width: 20vw;
+    font-size: 1.8vh;
+    position: relative;
+}
+.Loremone b{
+    font-size: 2.2vh;
+}
+
+
+
+/*    Fresh   */
+
+
+.Grocery{
+    height: 7.5vh;
+    width: 28vw;
+    background-color: rgb(230, 212, 212);
+    border-radius: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.Groceryone{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 3vmin;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 1vh;
+}
+
+
+
+/*  delivery   */
+
+
+.Fastdelivery{
+    height: 7.5vh;
+    width: 28vw;
+    background-color: rgb(230, 212, 212);
+    border-radius: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.Fastdeliveryone{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 3vmin;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 1vh;
+}
+
+
+
+
+/* footer      */
+
+
+
+
+.Centercontentone{
+    height: 32em;
+    border-top: 5x solid rgb(39, 199, 205);
+    background-color: rgb(203, 224, 232);
+    border-bottom: 2px solid brown;
+}
+.Centercontentone > mark {
+    position: relative;
+    left: 45vw;
+    bottom: 10vh;
+    font-size: 3.5vmin;
+    color: white;
+    background-color: rgb(56, 186, 56);
+}
+.Centercontentone > h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 4vmin;
+    font-size: 4vh;
+}
+.Images{
+    height: 19em;
+    width: 71.7vw;
+    position: relative;
+    left: 12vw;
+    top: 1vh;
+    object-fit: cover;
+    
+}
+#imgsize{
+    height: 15vh;
+    width: 21.8vw;
+    background-size: cover;
+    object-fit: cover;
+    padding: 0.5vw;
+    border-radius: 1.8vw;
+    cursor: pointer;
+    border: 2px solid transparent;
+    
+}
+
+}
+
+@media(min-width:901px) and (max-width:1440px){
+
+
+    .Navbar{
+        height: 9vh;
+        width: 45vw;
+        position: absolute;
+        left: 2vw;
+    }
+    .Navbar > img{
+        height: 9vh;
+        width: 18vw;
+        border: 1px solid black;
+        border-radius: 20vmin;
+        z-index: -1;
+    }
+    
+    
+    .Navbar > p{
+        display: inline;
+        color: green;
+        position: absolute;
+        top: 3.7vh;
+        font-size: 4vh;
+        font-weight: bolder;
+        font-family: math;
+        cursor: pointer;
+    }
+    
+    
+    small{
+        font-size: 6vh;
+        position: relative;
+        left:0.4vw;
+    }
+    .Menu > i{
+        font-size: 5vh;
+        
+    }
+    
+    
+    /*  2nd part  */
+    
+    
+    .Centercontent{
+        height: 48vh;
+        background-color: skyblue;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .Homelogo{
+        height: 28vh;
+        width: 19vw;
+        background-color: rgb(205, 194, 194);
+        border-radius: 50%;
+        z-index: 0;
+        position: relative;
+        bottom: 0.6vh;
+    }
+    
+    .Homelogo > .Innerlogo{
+        height: 21vh;
+        width: 15vw;
+        border-radius: 50%;
+        z-index: 1px;
+        position: relative;
+        top: 2.5vh;
+        left: 2vw;
+    }
+    
+    
+    /*  3rd part    */
+    
+    
+    
+    
+    .textcontent{
+        height: 26vh;
+        width: 55vw;
+        position: relative;
+        bottom: 1.5vh;
+    }
+    
+    .textcontent > mark{
+        background-color: rgb(56, 186, 56);
+        color: white;
+        font-family: sans-serif;
+        font-size: 2.2vh;
+    }
+    .textcontent > h1{
+        font-size: 5vmin;
+        font-family: sans-serif;
+        margin-top: 2vh;
+    }
+    .textcontent > p{
+        margin-top: 1.5vmin;
+        font-size: 2.4vw;
+    }
+    .textcontent > button{
+        height: 3.5vh;
+        width: 18vw;
+        color: black;
+        font-family: sans-serif;
+        background-color: rgb(211, 179, 82);
+        font-weight:600;
+        font-size: 2.5vmin;
+        border: none;
+        outline: 0;
+        margin-top: 1vmin;
+        cursor: pointer;
+    }
+    
+    
+    
+    /*    4th part   */
+    
+    
+    
+    .Discount{
+        height: 9vh;
+        width: 95vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        /* bottom: 2vh; */
+    }
+    
+    .Lorem{
+        height: 7.5vh;
+        width: 28vw;
+        background-color: rgb(230, 212, 212);
+        border-radius: 1vmin;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    .voucher{
+        height: 5vh;
+        width: 8vw;
+        border-radius: 3vmin;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 1vh;
+    }
+    .firstlogo{
+       height: 100%;
+       width: 100%;
+       border-radius: 3vmin;
+       
+    }
+    
+    .Loremone{
+        height: 7vh;
+        width: 20vw;
+        font-size: 1.8vh;
+        position: relative;
+        top: 1vh;
+    }
+    .Loremone b{
+        font-size: 2.2vh;
+    }
+    
+    
+    
+    /*    Fresh   */
+    
+    
+    .Grocery{
+        height: 7.5vh;
+        width: 28vw;
+        background-color: rgb(230, 212, 212);
+        border-radius: 1vmin;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    .Groceryone{
+        height: 5vh;
+        width: 8vw;
+        border-radius: 3vmin;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 1vh;
+    }
+    
+    
+    
+    /*  delivery   */
+    
+    
+    .Fastdelivery{
+        height: 7.5vh;
+        width: 28vw;
+        background-color: rgb(230, 212, 212);
+        border-radius: 1vmin;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    .Fastdeliveryone{
+        height: 5vh;
+        width: 8vw;
+        border-radius: 3vmin;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 1vh;
+    }
+    
+    
+    
+    
+    /* footer      */
+    
+    
+    
+    
+    .Centercontentone{
+        height: 52em;
+        border-top: 5x solid rgb(39, 199, 205);
+        background-color: rgb(203, 224, 232);
+        border-bottom: 2px solid brown;
+    }
+    .Centercontentone > mark {
+        position: relative;
+        left: 45vw;
+        bottom: 10vh;
+        font-size: 3.5vmin;
+        color: white;
+        background-color: rgb(56, 186, 56);
+    }
+    .Centercontentone > h1 {
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 4vmin;
+        font-size: 4vh;
+    }
+    .Images{
+        height: 25em;
+        width: 71.7vw;
+        position: relative;
+        left: 12vw;
+        top: 1vh;
+        object-fit: cover;
+        
+    }
+    #imgsize{
+        height: 30vh;
+        width: 21.8vw;
+        background-size: cover;
+        object-fit: cover;
+        padding: 0.5vw;
+        border-radius: 1.8vw;
+        cursor: pointer;
+        border: 2px solid transparent;
+        
+    }
+}
